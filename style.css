@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    height: 100%
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(#fce283, #b5ffda); 
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255,255,255, 0.8 );
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 16px;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255,0.3);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px
+}
