@@ -1,2 +1,2 @@
-# scientific-calculator
-Coding a scientific calculator with vanilla Javascript.
+# calculator
+Coding a calculator with vanilla Javascript.
